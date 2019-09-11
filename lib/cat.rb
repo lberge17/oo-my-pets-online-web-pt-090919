@@ -3,8 +3,8 @@ class Cat
   
   def initialize(name, owner)
     @name = name
-    owner = Owner.new(name)
-    
+    @owner = owner
+    #owner = Owner.new(name)
   end
   
 end
