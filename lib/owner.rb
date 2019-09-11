@@ -37,7 +37,9 @@ class Owner
   end
   
   def feed_cats
-    
+    cats.collect do |cat|
+      cat.mood = "happy"
+    end
   end
   
   def self.all
