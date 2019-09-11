@@ -49,9 +49,8 @@ class Owner
     end
     cats.collect do |cat|
       cat.mood = "nervous"
-      dog.owner = nil
+      cat.owner = nil
     end
-    
   end
   
   def self.all
