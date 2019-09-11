@@ -34,6 +34,10 @@ class Owner
     Dog.all.
   end
   
+  def feed_cats
+    
+  end
+  
   def self.all
     @@all
   end
