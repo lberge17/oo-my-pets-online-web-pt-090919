@@ -31,7 +31,9 @@ class Owner
   end
   
   def walk_dogs
-    Dog.all.
+    dogs.collect do |dog|
+      dog.mood = "happy"
+    end
   end
   
   def feed_cats
