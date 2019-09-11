@@ -3,7 +3,7 @@ class Cat
   
   def initialize(name, owner)
     @name = name
-    
+    owner = Owner.new
     self.owner.name = owner
   end
   
